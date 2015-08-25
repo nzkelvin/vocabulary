@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vocab.web", "vocab.web\voca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vocab.web.Tests", "vocab.web.Tests\vocab.web.Tests.csproj", "{B54BA881-5FC6-47B4-8C68-E5CDA65C1619}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaDomain.Classes", "NinjaDomain.Classes\NinjaDomain.Classes.csproj", "{07446198-1180-4492-9CAB-DA7F86B03F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaDomain.DataModel", "NinjaDomain.DataModel\NinjaDomain.DataModel.csproj", "{A5CC42D1-C0B4-4492-B28A-48779DF6B9AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{E313D686-DD88-425F-B8C2-860EA99397DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vocab.model", "vocab.model\vocab.model.csproj", "{D18FF25F-B911-4C73-98E9-560C835647EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vocab.datamodel.sql", "vocab.datamodel.sql\vocab.datamodel.sql.csproj", "{F1A4459E-FC4C-41DD-AD77-C1BDF3A043B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +31,26 @@ Global
 		{B54BA881-5FC6-47B4-8C68-E5CDA65C1619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B54BA881-5FC6-47B4-8C68-E5CDA65C1619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B54BA881-5FC6-47B4-8C68-E5CDA65C1619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07446198-1180-4492-9CAB-DA7F86B03F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07446198-1180-4492-9CAB-DA7F86B03F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07446198-1180-4492-9CAB-DA7F86B03F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07446198-1180-4492-9CAB-DA7F86B03F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CC42D1-C0B4-4492-B28A-48779DF6B9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CC42D1-C0B4-4492-B28A-48779DF6B9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CC42D1-C0B4-4492-B28A-48779DF6B9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CC42D1-C0B4-4492-B28A-48779DF6B9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E313D686-DD88-425F-B8C2-860EA99397DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E313D686-DD88-425F-B8C2-860EA99397DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E313D686-DD88-425F-B8C2-860EA99397DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E313D686-DD88-425F-B8C2-860EA99397DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18FF25F-B911-4C73-98E9-560C835647EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18FF25F-B911-4C73-98E9-560C835647EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18FF25F-B911-4C73-98E9-560C835647EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18FF25F-B911-4C73-98E9-560C835647EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A4459E-FC4C-41DD-AD77-C1BDF3A043B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A4459E-FC4C-41DD-AD77-C1BDF3A043B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A4459E-FC4C-41DD-AD77-C1BDF3A043B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A4459E-FC4C-41DD-AD77-C1BDF3A043B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
