@@ -3,16 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using vocab.model.Interfaces;
 
 namespace vocab.web.Controllers
 {
     public class HomeController : Controller
     {
+        IWordRepo _repo;
+
+        public HomeController(IWordRepo repo)
+        {
+            _repo = repo;
+        }
+
         //
         // GET: /Home/
         public ActionResult Index()
         {
-            return View();
+            var words = _repo.GetWords();
+
+            return View(words);
         }
 
         //
